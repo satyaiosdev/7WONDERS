@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B439258B1D413D3A0085446D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B439258A1D413D3A0085446D /* MapKit.framework */; };
 		B447A9821D36B935001E8025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9811D36B935001E8025 /* main.m */; };
 		B447A9851D36B935001E8025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9841D36B935001E8025 /* AppDelegate.m */; };
-		B447A9881D36B935001E8025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9871D36B935001E8025 /* ViewController.m */; };
 		B447A98B1D36B935001E8025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B447A9891D36B935001E8025 /* Main.storyboard */; };
 		B447A98D1D36B935001E8025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B447A98C1D36B935001E8025 /* Assets.xcassets */; };
 		B447A9901D36B935001E8025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B447A98E1D36B935001E8025 /* LaunchScreen.storyboard */; };
 		B447A99B1D36B935001E8025 /* _WONDERSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A99A1D36B935001E8025 /* _WONDERSTests.m */; };
 		B447A9A61D36B935001E8025 /* _WONDERSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9A51D36B935001E8025 /* _WONDERSUITests.m */; };
+		B447A9BF1D36C536001E8025 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9BE1D36C536001E8025 /* CustomCell.m */; };
+		B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9C11D36C8AF001E8025 /* FirstViewController.m */; };
+		B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9CE1D3836A5001E8025 /* SecondViewController.m */; };
+		B496B2A61D46FB4B004AF37A /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = B496B2A51D46FB4B004AF37A /* model.m */; };
+		E13848031DF3D647007E4419 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13848021DF3D647007E4419 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B439258A1D413D3A0085446D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B447A97D1D36B935001E8025 /* 7WONDERS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7WONDERS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B447A9811D36B935001E8025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B447A9831D36B935001E8025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B447A9841D36B935001E8025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B447A9861D36B935001E8025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B447A9871D36B935001E8025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B447A9831D36B935001E8025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = 7WONDERS/AppDelegate.h; sourceTree = "<group>"; };
+		B447A9841D36B935001E8025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = 7WONDERS/AppDelegate.m; sourceTree = "<group>"; };
 		B447A98A1D36B935001E8025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B447A98C1D36B935001E8025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B447A98C1D36B935001E8025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = 7WONDERS/Assets.xcassets; sourceTree = "<group>"; };
 		B447A98F1D36B935001E8025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B447A9911D36B935001E8025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447A9911D36B935001E8025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = 7WONDERS/Info.plist; sourceTree = "<group>"; };
 		B447A9961D36B935001E8025 /* 7WONDERSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7WONDERSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B447A99A1D36B935001E8025 /* _WONDERSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _WONDERSTests.m; sourceTree = "<group>"; };
 		B447A99C1D36B935001E8025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B447A9A11D36B935001E8025 /* 7WONDERSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 7WONDERSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B447A9A51D36B935001E8025 /* _WONDERSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _WONDERSUITests.m; sourceTree = "<group>"; };
 		B447A9A71D36B935001E8025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447A9BD1D36C536001E8025 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		B447A9BE1D36C536001E8025 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		B447A9C01D36C8AF001E8025 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B447A9C11D36C8AF001E8025 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B447A9CD1D3836A5001E8025 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B447A9CE1D3836A5001E8025 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B496B2A41D46FB4B004AF37A /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		B496B2A51D46FB4B004AF37A /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		E13848011DF3D647007E4419 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E13848021DF3D647007E4419 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B439258B1D413D3A0085446D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,11 @@
 		B447A9741D36B935001E8025 = {
 			isa = PBXGroup;
 			children = (
+				B439258A1D413D3A0085446D /* MapKit.framework */,
+				B447A9C31D36CA5E001E8025 /* FirstViewController */,
+				B447A9BC1D36BA98001E8025 /* CustomCell */,
+				B447A9B41D36B955001E8025 /* Resources */,
+				B447A9B31D36B93C001E8025 /* AppDelegate */,
 				B447A97F1D36B935001E8025 /* 7WONDERS */,
 				B447A9991D36B935001E8025 /* 7WONDERSTests */,
 				B447A9A41D36B935001E8025 /* 7WONDERSUITests */,
@@ -101,14 +121,6 @@
 		B447A97F1D36B935001E8025 /* 7WONDERS */ = {
 			isa = PBXGroup;
 			children = (
-				B447A9831D36B935001E8025 /* AppDelegate.h */,
-				B447A9841D36B935001E8025 /* AppDelegate.m */,
-				B447A9861D36B935001E8025 /* ViewController.h */,
-				B447A9871D36B935001E8025 /* ViewController.m */,
-				B447A9891D36B935001E8025 /* Main.storyboard */,
-				B447A98C1D36B935001E8025 /* Assets.xcassets */,
-				B447A98E1D36B935001E8025 /* LaunchScreen.storyboard */,
-				B447A9911D36B935001E8025 /* Info.plist */,
 				B447A9801D36B935001E8025 /* Supporting Files */,
 			);
 			path = 7WONDERS;
@@ -138,6 +150,50 @@
 				B447A9A71D36B935001E8025 /* Info.plist */,
 			);
 			path = 7WONDERSUITests;
+			sourceTree = "<group>";
+		};
+		B447A9B31D36B93C001E8025 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B447A9831D36B935001E8025 /* AppDelegate.h */,
+				B447A9841D36B935001E8025 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B447A9B41D36B955001E8025 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B447A9891D36B935001E8025 /* Main.storyboard */,
+				B447A98C1D36B935001E8025 /* Assets.xcassets */,
+				B447A98E1D36B935001E8025 /* LaunchScreen.storyboard */,
+				B447A9911D36B935001E8025 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B447A9BC1D36BA98001E8025 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				B447A9BD1D36C536001E8025 /* CustomCell.h */,
+				B447A9BE1D36C536001E8025 /* CustomCell.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		B447A9C31D36CA5E001E8025 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B447A9C01D36C8AF001E8025 /* FirstViewController.h */,
+				E13848011DF3D647007E4419 /* WebViewController.h */,
+				E13848021DF3D647007E4419 /* WebViewController.m */,
+				B447A9C11D36C8AF001E8025 /* FirstViewController.m */,
+				B447A9CD1D3836A5001E8025 /* SecondViewController.h */,
+				B447A9CE1D3836A5001E8025 /* SecondViewController.m */,
+				B496B2A41D46FB4B004AF37A /* model.h */,
+				B496B2A51D46FB4B004AF37A /* model.m */,
+			);
+			name = FirstViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +258,12 @@
 		B447A9751D36B935001E8025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Satya Venkata Krishna Achanta";
 				TargetAttributes = {
 					B447A97C1D36B935001E8025 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8U649G4M9T;
 					};
 					B447A9951D36B935001E8025 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -270,8 +327,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B447A9881D36B935001E8025 /* ViewController.m in Sources */,
+				B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */,
+				E13848031DF3D647007E4419 /* WebViewController.m in Sources */,
 				B447A9851D36B935001E8025 /* AppDelegate.m in Sources */,
+				B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */,
+				B496B2A61D46FB4B004AF37A /* model.m in Sources */,
+				B447A9BF1D36C536001E8025 /* CustomCell.m in Sources */,
 				B447A9821D36B935001E8025 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +375,7 @@
 				B447A98A1D36B935001E8025 /* Base */,
 			);
 			name = Main.storyboard;
+			path = 7WONDERS;
 			sourceTree = "<group>";
 		};
 		B447A98E1D36B935001E8025 /* LaunchScreen.storyboard */ = {
@@ -322,6 +384,7 @@
 				B447A98F1D36B935001E8025 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = 7WONDERS;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,8 +404,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,8 +451,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -415,6 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U649G4M9T;
 				INFOPLIST_FILE = 7WONDERS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERS";
@@ -426,6 +494,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U649G4M9T;
 				INFOPLIST_FILE = 7WONDERS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERS";
@@ -498,6 +567,7 @@
 				B447A9AC1D36B935001E8025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B447A9AD1D36B935001E8025 /* Build configuration list for PBXNativeTarget "7WONDERSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +576,7 @@
 				B447A9AF1D36B935001E8025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B447A9B01D36B935001E8025 /* Build configuration list for PBXNativeTarget "7WONDERSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +585,7 @@
 				B447A9B21D36B935001E8025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
