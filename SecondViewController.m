@@ -10,6 +10,10 @@
 #import "model.h"
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 
 @implementation SecondViewController
