@@ -7,6 +7,9 @@
 //
 
 #import "SecondViewController.h"
+#import "model.h"
+
+
 
 
 @implementation SecondViewController
@@ -15,33 +18,55 @@
     [super viewDidLoad];
     {
     _animationButtonON.hidden = NO;
-    _imageOfTheWonder.hidden=YES;
+    _imageOfTheWonder.hidden=NO;
     _animationButtonOFF.hidden = YES;
+        self.title = @"7Wonders";
 
-    
-    NSLog(@"it is wonder Name inside sv%ld",(long)_cellRowNr);
-    _nameOfTheWonder.text = @"Taj Mahal";
-    _imageOfTheWonder.image = [UIImage imageNamed:@"Image1.png"];
-    _descriptionOfTheWonder.text = @"It is taj mahal and located in agra, nearby delhi";;
+    model *obj2 = [[model alloc] init];
+        
+    _nameOfTheWonder.text = obj2.wonderName[(long)_cellRowNr];
+//    _imageOfTheWonder.image = obj2.imageName[(long)_cellRowNr];
+    _descriptionOfTheWonder.text = obj2.wonderDescription[(long)_cellRowNr];
+        
+      
+        _animationButtonON.hidden=YES;
+        _animationButtonOFF.hidden=NO;
+        _imageOfTheWonder.hidden=NO;
+        _imageOfTheWonder.animationImages = [NSArray arrayWithObjects:
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         
+                                             
+                                             
+                                             nil];
+        [_imageOfTheWonder setAnimationRepeatCount:0];
+        _imageOfTheWonder.animationDuration =1;
+        [_imageOfTheWonder startAnimating];
     }
-    
 }
 -(IBAction)showAnimation:(id)sender{
+    
     _animationButtonON.hidden=YES;
     _animationButtonOFF.hidden=NO;
     _imageOfTheWonder.hidden=NO;
-    
+    model *obj2 = [[model alloc] init];
     _imageOfTheWonder.animationImages = [NSArray arrayWithObjects:
-                                         [UIImage imageNamed:@"Image1.png"],
-                                         [UIImage imageNamed:@"Image2.png"],
-                                         [UIImage imageNamed:@"Image1.png"],
-                                         [UIImage imageNamed:@"Image2.png"],
-                                         [UIImage imageNamed:@"Image1.png"],
-                                         [UIImage imageNamed:@"Image2.png"],
-                                         [UIImage imageNamed:@"Image1.png"],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.animationImageName[(long)_cellRowNr]],
+                                         
                                          
                                          
                                          nil];
+
+
     [_imageOfTheWonder setAnimationRepeatCount:0];
     _imageOfTheWonder.animationDuration =1;
     [_imageOfTheWonder startAnimating];
@@ -49,9 +74,23 @@
     
 }
 -(IBAction)hideAnimation:(id)sender{
-    _imageOfTheWonder.hidden = YES;
-    _animationButtonOFF.hidden =YES;
-    _animationButtonON.hidden = NO;
+    model *obj2 = [[model alloc] init];
+    
+    _animationButtonON.hidden=NO;
+    _animationButtonOFF.hidden=YES;
+    _imageOfTheWonder.hidden=NO;
+    
+    _imageOfTheWonder.animationImages = [NSArray arrayWithObjects:
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         [UIImage imageNamed:obj2.imageName[(long)_cellRowNr]],
+                                         
+                                         nil];
+    [_imageOfTheWonder setAnimationRepeatCount:0];
+    _imageOfTheWonder.animationDuration =1;
+    [_imageOfTheWonder startAnimating];
+    
+   
     
     
 }

@@ -13,5 +13,6 @@
 
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-
+@property (weak, nonatomic) NSString *sampleString;
+//NSInteger testInteger = 2;
 @end

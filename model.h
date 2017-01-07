@@ -12,6 +12,13 @@
 
 //NSMutableDictionary *sevenWonders = [NSMutableDictionary dictionary];
 @property (strong, nonatomic) NSDictionary * sevenWonders;
+@property (strong, nonatomic) NSArray * wonderName;
+@property (strong, nonatomic) NSArray * imageName;
+@property (strong, nonatomic) NSArray * animationImageName;
+@property (strong, nonatomic) NSArray * countryName;
+@property (strong, nonatomic) NSArray * cityName;
+@property (strong, nonatomic) NSArray * geoCordinates;
+@property (strong, nonatomic) NSArray * wonderDescription;
 
 -(instancetype) init;
 
