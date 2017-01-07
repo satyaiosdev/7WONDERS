@@ -177,7 +177,10 @@
 		B447A9C31D36CA5E001E8025 /* FirstViewController */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				E1A430AE1E1D6A9A00F59524 /* Model */,
+=======
+>>>>>>> Stashed changes
 				E1A430AD1E1D6A5B00F59524 /* First Tab */,
 				E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */,
 			);
@@ -187,6 +190,10 @@
 		E1A430AD1E1D6A5B00F59524 /* First Tab */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
+=======
+				E1A430AE1E1D6A9A00F59524 /* Model */,
+>>>>>>> Stashed changes
 				B447A9C01D36C8AF001E8025 /* FirstViewController.h */,
 				B447A9C11D36C8AF001E8025 /* FirstViewController.m */,
 				E13848011DF3D647007E4419 /* WebViewController.h */,
@@ -210,7 +217,11 @@
 		E1A430AF1E1D6F6500F59524 /* 7Wonders */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				B439258A1D413D3A0085446D /* MapKit.framework */,
+=======
+				E1A95ED51E20BBEE00E9512B /* Frameworks */,
+>>>>>>> Stashed changes
 				B447A9C31D36CA5E001E8025 /* FirstViewController */,
 				B447A9B41D36B955001E8025 /* Resources */,
 				B447A9B31D36B93C001E8025 /* AppDelegate */,
@@ -220,6 +231,17 @@
 				B447A97E1D36B935001E8025 /* Products */,
 			);
 			name = 7Wonders;
+<<<<<<< Updated upstream
+=======
+			sourceTree = "<group>";
+		};
+		E1A95ED51E20BBEE00E9512B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B439258A1D413D3A0085446D /* MapKit.framework */,
+			);
+			name = Frameworks;
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

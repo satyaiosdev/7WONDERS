@@ -14,6 +14,9 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) NSString *sampleString;
+<<<<<<< Updated upstream
 @property (strong, nonatomic) NSArray *wonderArray;
+=======
+>>>>>>> Stashed changes
 //NSInteger testInteger = 2;
 @end
