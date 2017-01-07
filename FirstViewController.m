@@ -10,6 +10,11 @@
 #import "SecondViewController.h"
 #import "CustomCell.h"
 #import "model.h"
+#import "7WONDERS-Bridging-Header.h"
+//#import "7Wonders-Swift.h"
+
+
+//#import "SecondTabCollectionView.swift"
 
 @implementation FirstViewController
 
@@ -18,6 +23,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
         self.title = @"Home";
+    
     
     
 }
@@ -29,12 +35,14 @@
     
 }
 NSString *cellName;
+int testInteger = 2;
 
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CustomCell *cell =(CustomCell *)[tableView dequeueReusableCellWithIdentifier:@"CustomCell"];
     model *obj1 = [[model alloc] init];
+    
     if (indexPath.row == 0){
 
         NSLog(@"inside first View Controller:%@", [obj1.sevenWonders objectForKey:@"key1"]);

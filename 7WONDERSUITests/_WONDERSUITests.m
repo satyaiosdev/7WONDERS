@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "FirstViewController.h"
 
 @interface _WONDERSUITests : XCTestCase
 
@@ -32,9 +33,16 @@
     [super tearDown];
 }
 
+-(void) testTrue {
+//    int testInteger;
+//    XCTAssertTNil(testInteger, @"Something was not nil");
+//    
+    
+}
 - (void)testExample {
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+ 
 }
 
 @end
