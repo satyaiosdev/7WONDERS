@@ -10,6 +10,7 @@
 
 @interface WebViewController ()
 
+
 @end
 
 @implementation WebViewController
@@ -24,7 +25,6 @@
     
     [_myWebView loadRequest:myRequest];
     NSLog(@"it is inside webView");
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
