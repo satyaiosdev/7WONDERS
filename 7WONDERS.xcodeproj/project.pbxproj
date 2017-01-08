@@ -19,6 +19,7 @@
 		B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9C11D36C8AF001E8025 /* FirstViewController.m */; };
 		B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9CE1D3836A5001E8025 /* SecondViewController.m */; };
 		B496B2A61D46FB4B004AF37A /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = B496B2A51D46FB4B004AF37A /* model.m */; };
+		E1112F931E21E7080057E0F8 /* SecondTabFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */; };
 		E13848031DF3D647007E4419 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13848021DF3D647007E4419 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		B447A9CE1D3836A5001E8025 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B496B2A41D46FB4B004AF37A /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		B496B2A51D46FB4B004AF37A /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabFirstViewController.swift; sourceTree = "<group>"; };
 		E13848011DF3D647007E4419 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		E13848021DF3D647007E4419 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7WONDERS-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -178,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				E1A430AD1E1D6A5B00F59524 /* First Tab */,
-				E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */,
 			);
 			name = FirstViewController;
 			sourceTree = "<group>";
@@ -193,6 +194,8 @@
 				B447A9C11D36C8AF001E8025 /* FirstViewController.m */,
 				B447A9CD1D3836A5001E8025 /* SecondViewController.h */,
 				B447A9CE1D3836A5001E8025 /* SecondViewController.m */,
+				E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */,
+				E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */,
 				B447A9BC1D36BA98001E8025 /* CustomCell */,
 			);
 			name = "First Tab";
@@ -292,7 +295,7 @@
 		B447A9751D36B935001E8025 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Satya Venkata Krishna Achanta";
 				TargetAttributes = {
 					B447A97C1D36B935001E8025 = {
@@ -365,6 +368,7 @@
 				B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */,
 				E13848031DF3D647007E4419 /* WebViewController.m in Sources */,
 				B447A9851D36B935001E8025 /* AppDelegate.m in Sources */,
+				E1112F931E21E7080057E0F8 /* SecondTabFirstViewController.swift in Sources */,
 				B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */,
 				B496B2A61D46FB4B004AF37A /* model.m in Sources */,
 				B447A9BF1D36C536001E8025 /* CustomCell.m in Sources */,
@@ -448,6 +452,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -467,6 +472,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = Wonders;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,6 +501,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -507,7 +514,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = Wonders;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -518,10 +527,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8U649G4M9T;
 				INFOPLIST_FILE = 7WONDERS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERS";
+				PRODUCT_MODULE_NAME = Wonders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "7WONDERS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -534,10 +545,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8U649G4M9T;
 				INFOPLIST_FILE = 7WONDERS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERS";
+				PRODUCT_MODULE_NAME = Wonders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "7WONDERS-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -547,6 +560,7 @@
 		B447A9AE1D36B935001E8025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 7WONDERSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -559,6 +573,7 @@
 		B447A9AF1D36B935001E8025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = 7WONDERSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -571,6 +586,7 @@
 		B447A9B11D36B935001E8025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = 7WONDERSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERSUITests";
@@ -582,6 +598,7 @@
 		B447A9B21D36B935001E8025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = 7WONDERSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hello.-WONDERSUITests";

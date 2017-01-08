@@ -11,7 +11,11 @@
 #import "CustomCell.h"
 #import "model.h"
 #import "7WONDERS-Bridging-Header.h"
-//#import "7Wonders-Swift.h"
+//#import "SecondTabFirstViewController.swift"
+#import "Wonders-Swift.h"
+
+
+
 
 @implementation FirstViewController
 
@@ -29,16 +33,12 @@
     
 }
 NSString *cellName;
-int testInteger = 2;
-
-
+//int testInteger = 2;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     CustomCell *cell =(CustomCell *)[tableView dequeueReusableCellWithIdentifier:@"CustomCell"];
     model *obj1 = [[model alloc] init];
     {
-
-//        NSLog(@"inside first View Controller:%@", [obj1.sevenWonders objectForKey:@"key1"]);
         cell.wonderName.text = obj1.wonderName[indexPath.row];
         cell.cityName.text = obj1.cityName[indexPath.row];
         cell.countryName.text = obj1.countryName[indexPath.row];
