@@ -16,11 +16,11 @@
 		B447A99B1D36B935001E8025 /* _WONDERSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A99A1D36B935001E8025 /* _WONDERSTests.m */; };
 		B447A9A61D36B935001E8025 /* _WONDERSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9A51D36B935001E8025 /* _WONDERSUITests.m */; };
 		B447A9BF1D36C536001E8025 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9BE1D36C536001E8025 /* CustomCell.m */; };
-		B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9C11D36C8AF001E8025 /* FirstViewController.m */; };
-		B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447A9CE1D3836A5001E8025 /* SecondViewController.m */; };
-		B496B2A61D46FB4B004AF37A /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = B496B2A51D46FB4B004AF37A /* model.m */; };
 		E1112F931E21E7080057E0F8 /* SecondTabFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */; };
-		E13848031DF3D647007E4419 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E13848021DF3D647007E4419 /* WebViewController.m */; };
+		E1112FEB1E2243AD0057E0F8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1112FE51E2243AD0057E0F8 /* FirstViewController.m */; };
+		E1112FEC1E2243AD0057E0F8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1112FE71E2243AD0057E0F8 /* SecondViewController.m */; };
+		E1112FED1E2243AD0057E0F8 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1112FE91E2243AD0057E0F8 /* WebViewController.m */; };
+		E1112FF01E2243CD0057E0F8 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = E1112FEF1E2243CD0057E0F8 /* model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +58,15 @@
 		B447A9A71D36B935001E8025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B447A9BD1D36C536001E8025 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		B447A9BE1D36C536001E8025 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		B447A9C01D36C8AF001E8025 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B447A9C11D36C8AF001E8025 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B447A9CD1D3836A5001E8025 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B447A9CE1D3836A5001E8025 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		B496B2A41D46FB4B004AF37A /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
-		B496B2A51D46FB4B004AF37A /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 		E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabFirstViewController.swift; sourceTree = "<group>"; };
-		E13848011DF3D647007E4419 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
-		E13848021DF3D647007E4419 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		E1112FE41E2243AD0057E0F8 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "../untitled folder/7WONDERS/FirstViewController.h"; sourceTree = "<group>"; };
+		E1112FE51E2243AD0057E0F8 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "../untitled folder/7WONDERS/FirstViewController.m"; sourceTree = "<group>"; };
+		E1112FE61E2243AD0057E0F8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "../untitled folder/7WONDERS/SecondViewController.h"; sourceTree = "<group>"; };
+		E1112FE71E2243AD0057E0F8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "../untitled folder/7WONDERS/SecondViewController.m"; sourceTree = "<group>"; };
+		E1112FE81E2243AD0057E0F8 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = "../untitled folder/7WONDERS/WebViewController.h"; sourceTree = "<group>"; };
+		E1112FE91E2243AD0057E0F8 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = "../untitled folder/7WONDERS/WebViewController.m"; sourceTree = "<group>"; };
+		E1112FEE1E2243CD0057E0F8 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = model.h; path = "../untitled folder/7WONDERS/model.h"; sourceTree = "<group>"; };
+		E1112FEF1E2243CD0057E0F8 /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = model.m; path = "../untitled folder/7WONDERS/model.m"; sourceTree = "<group>"; };
 		E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7WONDERS-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,13 +179,7 @@
 		B447A9C31D36CA5E001E8025 /* FirstViewController */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
 				E1A430AE1E1D6A9A00F59524 /* Model */,
-=======
->>>>>>> Stashed changes
->>>>>>> origin/master
 				E1A430AD1E1D6A5B00F59524 /* First Tab */,
 			);
 			name = FirstViewController;
@@ -194,20 +188,12 @@
 		E1A430AD1E1D6A5B00F59524 /* First Tab */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				E1A430AE1E1D6A9A00F59524 /* Model */,
-=======
-<<<<<<< Updated upstream
-=======
-				E1A430AE1E1D6A9A00F59524 /* Model */,
->>>>>>> Stashed changes
->>>>>>> origin/master
-				B447A9C01D36C8AF001E8025 /* FirstViewController.h */,
-				B447A9C11D36C8AF001E8025 /* FirstViewController.m */,
-				E13848011DF3D647007E4419 /* WebViewController.h */,
-				E13848021DF3D647007E4419 /* WebViewController.m */,
-				B447A9CD1D3836A5001E8025 /* SecondViewController.h */,
-				B447A9CE1D3836A5001E8025 /* SecondViewController.m */,
+				E1112FE41E2243AD0057E0F8 /* FirstViewController.h */,
+				E1112FE51E2243AD0057E0F8 /* FirstViewController.m */,
+				E1112FE61E2243AD0057E0F8 /* SecondViewController.h */,
+				E1112FE71E2243AD0057E0F8 /* SecondViewController.m */,
+				E1112FE81E2243AD0057E0F8 /* WebViewController.h */,
+				E1112FE91E2243AD0057E0F8 /* WebViewController.m */,
 				E1112F921E21E7080057E0F8 /* SecondTabFirstViewController.swift */,
 				E1A430B41E1D9FBF00F59524 /* 7WONDERS-Bridging-Header.h */,
 				B447A9BC1D36BA98001E8025 /* CustomCell */,
@@ -218,8 +204,8 @@
 		E1A430AE1E1D6A9A00F59524 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B496B2A41D46FB4B004AF37A /* model.h */,
-				B496B2A51D46FB4B004AF37A /* model.m */,
+				E1112FEE1E2243CD0057E0F8 /* model.h */,
+				E1112FEF1E2243CD0057E0F8 /* model.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -227,15 +213,8 @@
 		E1A430AF1E1D6F6500F59524 /* 7Wonders */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				E1A95ED51E20BBEE00E9512B /* Frameworks */,
-=======
-<<<<<<< Updated upstream
 				B439258A1D413D3A0085446D /* MapKit.framework */,
-=======
 				E1A95ED51E20BBEE00E9512B /* Frameworks */,
->>>>>>> Stashed changes
->>>>>>> origin/master
 				B447A9C31D36CA5E001E8025 /* FirstViewController */,
 				B447A9B41D36B955001E8025 /* Resources */,
 				B447A9B31D36B93C001E8025 /* AppDelegate */,
@@ -245,23 +224,13 @@
 				B447A97E1D36B935001E8025 /* Products */,
 			);
 			name = 7Wonders;
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 		E1A95ED51E20BBEE00E9512B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B439258A1D413D3A0085446D /* MapKit.framework */,
 			);
 			name = Frameworks;
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
->>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,12 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B447A9CF1D3836A5001E8025 /* SecondViewController.m in Sources */,
-				E13848031DF3D647007E4419 /* WebViewController.m in Sources */,
+				E1112FF01E2243CD0057E0F8 /* model.m in Sources */,
 				B447A9851D36B935001E8025 /* AppDelegate.m in Sources */,
 				E1112F931E21E7080057E0F8 /* SecondTabFirstViewController.swift in Sources */,
-				B447A9C21D36C8AF001E8025 /* FirstViewController.m in Sources */,
-				B496B2A61D46FB4B004AF37A /* model.m in Sources */,
+				E1112FEB1E2243AD0057E0F8 /* FirstViewController.m in Sources */,
+				E1112FED1E2243AD0057E0F8 /* WebViewController.m in Sources */,
+				E1112FEC1E2243AD0057E0F8 /* SecondViewController.m in Sources */,
 				B447A9BF1D36C536001E8025 /* CustomCell.m in Sources */,
 				B447A9821D36B935001E8025 /* main.m in Sources */,
 			);

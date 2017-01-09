@@ -79,7 +79,7 @@ class SecondTabFirstViewController: UICollectionViewController, UICollectionView
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        let width = collectionView.frame.width/3-1
+        let width = collectionView.frame.width / 3-1
         
         return CGSize(width: width, height: width)
     }
